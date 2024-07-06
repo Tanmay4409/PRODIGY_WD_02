@@ -4,20 +4,28 @@ body {
     background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;  /* Change from center to flex-start */
     align-items: center;
-    height: 100vh;
-    overflow: hidden;
+    height: 100%;
+    overflow-y: auto;  /* Enable vertical scrolling */
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    overflow-y: auto;  /* Enable vertical scrolling */
 }
 
 #container {
     color: #d7dfe4;
+    padding: 20px;
 }
 
 #footer-container {
     position: absolute;
     bottom: 1%;
-    right: 10%;
+    right: 1%;  /* Adjust to 1% to make it closer to the edge */
 }
 
 .digit {
@@ -29,6 +37,7 @@ body {
     font-size: 40px;
     font-weight: bold;
 }
+
 .social-txt {
     font-size: 20px;
     color: white;
@@ -53,7 +62,7 @@ body {
     background-color: #1abc9c;
 }
 
-#start :hover {
+#start:hover {
     background-color: yellow;
 }
 
@@ -65,15 +74,15 @@ body {
     background-color: #0400fc;
 }
 
-@media screen and (max-width:800px){
-    #time span{
+@media screen and (max-width: 800px) {
+    #time span {
         font-size: 4rem;
     }
-    #time{
+    #time {
         display: flex;
         flex-direction: column;
     }
-    #container{
+    #container {
         display: flex;
         flex-direction: column;
         align-items: center;
