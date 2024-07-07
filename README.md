@@ -28,13 +28,13 @@ This is a simple web-based stopwatch application built with HTML, CSS, and JavaS
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/Tanmay4409/stopwatch.git
+   git clone https://github.com/Tanmay4409/PRODIGY_WD_02.git
    ```
 
 2. Navigate to the project directory:
 
    ```sh
-   cd stopwatch
+   cd PRODIGY_WD_02
    ```
 
 3. Open the `index.html` file in your preferred web browser.
