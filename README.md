@@ -3,6 +3,8 @@
 
 This is a simple web-based stopwatch application built with HTML, CSS, and JavaScript. The stopwatch allows users to start, stop, reset the timer, and record lap times. Users can also clear all recorded lap times. Additionally, the footer contains social media links to LinkedIn, Instagram, and GitHub profiles.
 
+![Screenshot of Stopwatch](img/screenshot.png)
+
 ## Table of Contents
 
 - [Features](#features)
