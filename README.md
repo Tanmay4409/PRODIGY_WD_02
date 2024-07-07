@@ -50,13 +50,12 @@ This is a simple web-based stopwatch application built with HTML, CSS, and JavaS
 ```plaintext
 stopwatch/
 │
-├── img/
-│   ├── favicon.png
-│   ├── clock.png
+├── img/   
 │   ├── LinkedinLogo.png
 │   ├── instagram.png
 │   └── GitHub.png
 │
+├── clock.png
 ├── style.css
 ├── script.js
 └── index.html
