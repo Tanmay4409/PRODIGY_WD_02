@@ -1,20 +1,20 @@
 body {
-    background: #4b4a55;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #525163, #172e29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4b4a55;  
+    background: -webkit-linear-gradient(to right, #525163, #172e29);  
+    background: linear-gradient(to right, #191654, #43C6AC); 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;  /* Change from center to flex-start */
+    justify-content: flex-start;  
     align-items: center;
     height: 100%;
-    overflow-y: auto;  /* Enable vertical scrolling */
+    overflow-y: auto;  
     margin: 0;
     padding: 0;
 }
 
 html {
     height: 100%;
-    overflow-y: auto;  /* Enable vertical scrolling */
+    overflow-y: auto;  
 }
 
 #container {
@@ -25,7 +25,7 @@ html {
 #footer-container {
     position: absolute;
     bottom: 1%;
-    right: 1%;  /* Adjust to 1% to make it closer to the edge */
+    right: 1%;  
 }
 
 .digit {
